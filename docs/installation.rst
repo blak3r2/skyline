@@ -97,7 +97,7 @@ environment, it does not lend itself to repeatability or a common known state.
     # an install -r will fail as pip cannot find mysql-connector-python
     bin/"pip${PYTHON_MAJOR_VERSION}" install http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-1.2.3.zip#md5=6d42998cfec6e85b902d4ffa5a35ce86
 
-    # The MySQL download source can now be commented it out of requirements.txt
+    # The MySQL download source can now be commented out of requirements.txt
     # vi /opt/skyline/github/skyline/requirements.txt
 
     # This can take lots and lots of minutes...
